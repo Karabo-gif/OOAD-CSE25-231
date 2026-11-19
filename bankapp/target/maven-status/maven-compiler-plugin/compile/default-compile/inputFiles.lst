@@ -1,4 +1,11 @@
 /workspaces/OOAD-CSE25-231/bankapp/src/main/java/bank/App.java
+/workspaces/OOAD-CSE25-231/bankapp/src/main/java/bank/DatabaseDemo.java
+/workspaces/OOAD-CSE25-231/bankapp/src/main/java/bank/controller/AccountController.java
+/workspaces/OOAD-CSE25-231/bankapp/src/main/java/bank/controller/LoginController.java
+/workspaces/OOAD-CSE25-231/bankapp/src/main/java/bank/dao/AccountDAO.java
+/workspaces/OOAD-CSE25-231/bankapp/src/main/java/bank/dao/CustomerDAO.java
+/workspaces/OOAD-CSE25-231/bankapp/src/main/java/bank/dao/DataSeeder.java
+/workspaces/OOAD-CSE25-231/bankapp/src/main/java/bank/dao/DatabaseManager.java
 /workspaces/OOAD-CSE25-231/bankapp/src/main/java/bank/model/Account.java
 /workspaces/OOAD-CSE25-231/bankapp/src/main/java/bank/model/ChequeAccount.java
 /workspaces/OOAD-CSE25-231/bankapp/src/main/java/bank/model/CompanyCustomer.java
@@ -9,3 +16,6 @@
 /workspaces/OOAD-CSE25-231/bankapp/src/main/java/bank/model/SavingsAccount.java
 /workspaces/OOAD-CSE25-231/bankapp/src/main/java/bank/model/Transaction.java
 /workspaces/OOAD-CSE25-231/bankapp/src/main/java/bank/model/Withdrawable.java
+/workspaces/OOAD-CSE25-231/bankapp/src/main/java/bank/view/AccountView.java
+/workspaces/OOAD-CSE25-231/bankapp/src/main/java/bank/view/LoginView.java
+/workspaces/OOAD-CSE25-231/bankapp/src/main/java/bank/view/MainApp.java

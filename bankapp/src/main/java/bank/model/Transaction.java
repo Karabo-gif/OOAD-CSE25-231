@@ -8,7 +8,8 @@ public class Transaction {
     private final double amount;
     private final LocalDateTime date;
     private final double balanceAfter;
-
+    
+    
     public Transaction(String transactionId, String type, double amount, double balanceAfter) {
     this.transactionId = transactionId;
     this.type = type;

@@ -33,4 +33,7 @@ public class IndividualCustomer extends Customer {
         addAccount(account);
         return account;
     }
+
+        public String getFirstName() { return firstName; }
+    public String getSurname() { return surname; }
 }

@@ -14,6 +14,11 @@ public class InvestmentAccount extends Account implements InterestInterface, Wit
         deposit(initialDeposit, "Opening deposit");
     }
 
+    // Used when rebuilding an existing account from the database before calling restore(...)
+    public InvestmentAccount(String accountNumber, String accountBranch, Customer owner) {
+        super(accountNumber, accountBranch, owner);
+    }
+
     @Override
     public void withdraw(double amount) {
         processWithdrawal(amount);

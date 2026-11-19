@@ -18,6 +18,15 @@ public abstract class Account {
         this.owner = owner;
     }
 
+    // Used by the DAO when rebuilding an account from the database
+    public void restore(double balance, List<Transaction> history) {
+        this.accountBalance = balance;
+        this.transactions.clear();
+        if (history != null) {
+            this.transactions.addAll(history);
+        }
+    }
+
     public String getAccountNumber() { return accountNumber; }
     public String getAccountBranch() { return accountBranch; }
     public Customer getOwner() { return owner; }

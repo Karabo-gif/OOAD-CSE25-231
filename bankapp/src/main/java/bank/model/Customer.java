@@ -19,6 +19,7 @@ public abstract class Customer {
     public String getCustomerId() { return customerId; }
     public String getAddress() { return address; }
     public void setAddress(String address) { this.address = address; }
+    public String getPassword() { return password; }
     public List<Account> getAccounts() { return Collections.unmodifiableList(accounts); }
 
     public boolean checkPassword(String attempt) {
@@ -36,6 +37,10 @@ public abstract class Customer {
             }
         }
         accounts.add(account);
+    }
+
+    public void attachAccount(Account account) {
+        addAccount(account);
     }
 
     public SavingsAccount openSavingsAccount(String number, String branch) {
@@ -58,5 +63,3 @@ public abstract class Customer {
         }
     }
 }
-
-
